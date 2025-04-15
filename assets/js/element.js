@@ -13,6 +13,8 @@ async function loadElement() {
     if (!el) return;
 
     document.getElementById("element-title").textContent = el.symbol;
+    document.getElementById("config-title").textContent = t.config;
+
 
     const details = document.getElementById("element-details");
     details.innerHTML = `
@@ -102,6 +104,5 @@ function drawLewisNotation(electronShells) {
     container.appendChild(span);
 }
 
-document.getElementById("config-title").textContent = t.config || t.config_fr;
 
 loadElement();

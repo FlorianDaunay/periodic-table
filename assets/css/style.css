@@ -172,3 +172,16 @@ header {
 .lang-switch img.active {
     border-color: var(--text);
 }
+
+#table {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    overflow-x: auto;
+}

@@ -6,7 +6,7 @@
         "symbol": "H",
         "name": {
             "en": "Hydrogen",
-            "fr": "Hydrog\u00e8ne"
+            "fr": "Hydrogène"
         },
         "category": "nonmetal",
         "row": 1,
@@ -22,7 +22,7 @@
         "symbol": "He",
         "name": {
             "en": "Helium",
-            "fr": "H\u00e9lium"
+            "fr": "Hélium"
         },
         "category": "noble-gas",
         "row": 1,
@@ -55,7 +55,7 @@
         "symbol": "Be",
         "name": {
             "en": "Beryllium",
-            "fr": "B\u00e9ryllium"
+            "fr": "Béryllium"
         },
         "category": "alkaline-earth",
         "row": 2,
@@ -123,7 +123,7 @@
         "symbol": "O",
         "name": {
             "en": "Oxygen",
-            "fr": "Oxyg\u00e8ne"
+            "fr": "Oxygène"
         },
         "category": "nonmetal",
         "row": 2,
@@ -153,11 +153,11 @@
     {
         "id": 10,
         "z": 10,
-        "a": 20.18,
+        "a": 20.180,
         "symbol": "Ne",
         "name": {
             "en": "Neon",
-            "fr": "N\u00e9on"
+            "fr": "Néon"
         },
         "category": "noble-gas",
         "row": 2,
@@ -170,7 +170,7 @@
     {
         "id": 11,
         "z": 11,
-        "a": 22.99,
+        "a": 22.990,
         "symbol": "Na",
         "name": {
             "en": "Sodium",
@@ -192,7 +192,7 @@
         "symbol": "Mg",
         "name": {
             "en": "Magnesium",
-            "fr": "Magn\u00e9sium"
+            "fr": "Magnésium"
         },
         "category": "alkaline-earth",
         "row": 3,
@@ -212,7 +212,7 @@
             "en": "Aluminium",
             "fr": "Aluminium"
         },
-        "category": "post-transition",
+        "category": "post-transition-metal",
         "row": 3,
         "column": 13,
         "electrons": [
@@ -296,7 +296,7 @@
     {
         "id": 18,
         "z": 18,
-        "a": 39.948,
+        "a": 39.95,
         "symbol": "Ar",
         "name": {
             "en": "Argon",
@@ -352,1011 +352,914 @@
     {
         "id": 21,
         "z": 21,
-        "a": 21.5,
-        "symbol": "E21",
+        "a": 44.956,
+        "symbol": "Sc",
         "name": {
-            "en": "Element21",
-            "fr": "Element21"
+            "en": "Scandium",
+            "fr": "Scandium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 3,
         "electrons": [
             2,
             8,
-            18,
-            32,
-            18,
-            8,
-            5
+            9,
+            2
         ]
     },
     {
         "id": 22,
         "z": 22,
-        "a": 22.5,
-        "symbol": "E22",
+        "a": 47.867,
+        "symbol": "Ti",
         "name": {
-            "en": "Element22",
-            "fr": "Element22"
+            "en": "Titanium",
+            "fr": "Titane"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 4,
         "electrons": [
             2,
             8,
-            18,
-            32,
-            18,
-            8,
-            6
+            10,
+            2
         ]
     },
     {
         "id": 23,
         "z": 23,
-        "a": 23.5,
-        "symbol": "E23",
+        "a": 50.942,
+        "symbol": "V",
         "name": {
-            "en": "Element23",
-            "fr": "Element23"
+            "en": "Vanadium",
+            "fr": "Vanadium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 5,
         "electrons": [
             2,
             8,
-            18,
-            32,
-            18,
-            8,
-            7
+            11,
+            2
         ]
     },
     {
         "id": 24,
         "z": 24,
-        "a": 24.5,
-        "symbol": "E24",
+        "a": 51.996,
+        "symbol": "Cr",
         "name": {
-            "en": "Element24",
-            "fr": "Element24"
+            "en": "Chromium",
+            "fr": "Chrome"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 6,
         "electrons": [
             2,
             8,
-            18,
-            32,
-            18,
-            8,
-            0
+            13,
+            1
         ]
     },
     {
         "id": 25,
         "z": 25,
-        "a": 25.5,
-        "symbol": "E25",
+        "a": 54.938,
+        "symbol": "Mn",
         "name": {
-            "en": "Element25",
-            "fr": "Element25"
+            "en": "Manganese",
+            "fr": "Manganèse"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 7,
         "electrons": [
             2,
             8,
-            18,
-            32,
-            18,
-            8,
-            1
+            13,
+            2
         ]
     },
     {
         "id": 26,
         "z": 26,
-        "a": 26.5,
-        "symbol": "E26",
+        "a": 55.845,
+        "symbol": "Fe",
         "name": {
-            "en": "Element26",
-            "fr": "Element26"
+            "en": "Iron",
+            "fr": "Fer"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 8,
         "electrons": [
             2,
             8,
-            18,
-            32,
-            18,
-            8,
+            14,
             2
         ]
     },
     {
         "id": 27,
         "z": 27,
-        "a": 27.5,
-        "symbol": "E27",
+        "a": 58.933,
+        "symbol": "Co",
         "name": {
-            "en": "Element27",
-            "fr": "Element27"
+            "en": "Cobalt",
+            "fr": "Cobalt"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 9,
         "electrons": [
             2,
             8,
-            18,
-            32,
-            18,
-            8,
-            3
+            15,
+            2
         ]
     },
     {
         "id": 28,
         "z": 28,
-        "a": 28.5,
-        "symbol": "E28",
+        "a": 58.693,
+        "symbol": "Ni",
         "name": {
-            "en": "Element28",
-            "fr": "Element28"
+            "en": "Nickel",
+            "fr": "Nickel"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 10,
         "electrons": [
             2,
             8,
-            18,
-            32,
-            18,
-            8,
-            4
+            16,
+            2
         ]
     },
     {
         "id": 29,
         "z": 29,
-        "a": 29.5,
-        "symbol": "E29",
+        "a": 63.546,
+        "symbol": "Cu",
         "name": {
-            "en": "Element29",
-            "fr": "Element29"
+            "en": "Copper",
+            "fr": "Cuivre"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 11,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            5
+            1
         ]
     },
     {
         "id": 30,
         "z": 30,
-        "a": 30.5,
-        "symbol": "E30",
+        "a": 65.38,
+        "symbol": "Zn",
         "name": {
-            "en": "Element30",
-            "fr": "Element30"
+            "en": "Zinc",
+            "fr": "Zinc"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 4,
         "column": 12,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            6
+            2
         ]
     },
     {
         "id": 31,
         "z": 31,
-        "a": 31.5,
-        "symbol": "E31",
+        "a": 69.723,
+        "symbol": "Ga",
         "name": {
-            "en": "Element31",
-            "fr": "Element31"
+            "en": "Gallium",
+            "fr": "Gallium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "post-transition-metal",
+        "row": 4,
         "column": 13,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            7
+            3
         ]
     },
     {
         "id": 32,
         "z": 32,
-        "a": 32.5,
-        "symbol": "E32",
+        "a": 72.63,
+        "symbol": "Ge",
         "name": {
-            "en": "Element32",
-            "fr": "Element32"
+            "en": "Germanium",
+            "fr": "Germanium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "metalloid",
+        "row": 4,
         "column": 14,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            0
+            4
         ]
     },
     {
         "id": 33,
         "z": 33,
-        "a": 33.5,
-        "symbol": "E33",
+        "a": 74.922,
+        "symbol": "As",
         "name": {
-            "en": "Element33",
-            "fr": "Element33"
+            "en": "Arsenic",
+            "fr": "Arsenic"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "metalloid",
+        "row": 4,
         "column": 15,
         "electrons": [
             2,
             8,
             18,
-            32,
+            5
+        ]
+    },
+    {
+        "id": 34,
+        "z": 34,
+        "a": 78.971,
+        "symbol": "Se",
+        "name": {
+            "en": "Selenium",
+            "fr": "Sélénium"
+        },
+        "category": "nonmetal",
+        "row": 4,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            18,
+            6
+        ]
+    },
+    {
+        "id": 35,
+        "z": 35,
+        "a": 79.904,
+        "symbol": "Br",
+        "name": {
+            "en": "Bromine",
+            "fr": "Brome"
+        },
+        "category": "halogen",
+        "row": 4,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            7
+        ]
+    },
+    {
+        "id": 36,
+        "z": 36,
+        "a": 83.798,
+        "symbol": "Kr",
+        "name": {
+            "en": "Krypton",
+            "fr": "Krypton"
+        },
+        "category": "noble-gas",
+        "row": 4,
+        "column": 18,
+        "electrons": [
+            2,
+            8,
+            18,
+            8
+        ]
+    },
+    {
+        "id": 37,
+        "z": 37,
+        "a": 85.468,
+        "symbol": "Rb",
+        "name": {
+            "en": "Rubidium",
+            "fr": "Rubidium"
+        },
+        "category": "alkali",
+        "row": 5,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
             18,
             8,
             1
         ]
     },
     {
-        "id": 34,
-        "z": 34,
-        "a": 34.5,
-        "symbol": "E34",
+        "id": 38,
+        "z": 38,
+        "a": 87.62,
+        "symbol": "Sr",
         "name": {
-            "en": "Element34",
-            "fr": "Element34"
+            "en": "Strontium",
+            "fr": "Strontium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 16,
+        "category": "alkaline-earth",
+        "row": 5,
+        "column": 2,
         "electrons": [
             2,
             8,
-            18,
-            32,
             18,
             8,
             2
         ]
     },
     {
-        "id": 35,
-        "z": 35,
-        "a": 35.5,
-        "symbol": "E35",
-        "name": {
-            "en": "Element35",
-            "fr": "Element35"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 17,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            3
-        ]
-    },
-    {
-        "id": 36,
-        "z": 36,
-        "a": 36.5,
-        "symbol": "E36",
-        "name": {
-            "en": "Element36",
-            "fr": "Element36"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            4
-        ]
-    },
-    {
-        "id": 37,
-        "z": 37,
-        "a": 37.5,
-        "symbol": "E37",
-        "name": {
-            "en": "Element37",
-            "fr": "Element37"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            5
-        ]
-    },
-    {
-        "id": 38,
-        "z": 38,
-        "a": 38.5,
-        "symbol": "E38",
-        "name": {
-            "en": "Element38",
-            "fr": "Element38"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 2,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            6
-        ]
-    },
-    {
         "id": 39,
         "z": 39,
-        "a": 39.5,
-        "symbol": "E39",
+        "a": 88.906,
+        "symbol": "Y",
         "name": {
-            "en": "Element39",
-            "fr": "Element39"
+            "en": "Yttrium",
+            "fr": "Yttrium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            7
+            9,
+            2
         ]
     },
     {
         "id": 40,
         "z": 40,
-        "a": 40.5,
-        "symbol": "E40",
+        "a": 91.224,
+        "symbol": "Zr",
         "name": {
-            "en": "Element40",
-            "fr": "Element40"
+            "en": "Zirconium",
+            "fr": "Zirconium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 4,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            0
+            10,
+            2
         ]
     },
     {
         "id": 41,
         "z": 41,
-        "a": 41.5,
-        "symbol": "E41",
+        "a": 92.906,
+        "symbol": "Nb",
         "name": {
-            "en": "Element41",
-            "fr": "Element41"
+            "en": "Niobium",
+            "fr": "Niobium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 5,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
+            12,
             1
         ]
     },
     {
         "id": 42,
         "z": 42,
-        "a": 42.5,
-        "symbol": "E42",
+        "a": 95.95,
+        "symbol": "Mo",
         "name": {
-            "en": "Element42",
-            "fr": "Element42"
+            "en": "Molybdenum",
+            "fr": "Molybdène"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 6,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            2
+            13,
+            1
         ]
     },
     {
         "id": 43,
         "z": 43,
-        "a": 43.5,
-        "symbol": "E43",
+        "a": 97,
+        "symbol": "Tc",
         "name": {
-            "en": "Element43",
-            "fr": "Element43"
+            "en": "Technetium",
+            "fr": "Technétium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 7,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            3
+            13,
+            2
         ]
     },
     {
         "id": 44,
         "z": 44,
-        "a": 44.5,
-        "symbol": "E44",
+        "a": 101.07,
+        "symbol": "Ru",
         "name": {
-            "en": "Element44",
-            "fr": "Element44"
+            "en": "Ruthenium",
+            "fr": "Ruthénium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 8,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            4
+            15,
+            1
         ]
     },
     {
         "id": 45,
         "z": 45,
-        "a": 45.5,
-        "symbol": "E45",
+        "a": 102.905,
+        "symbol": "Rh",
         "name": {
-            "en": "Element45",
-            "fr": "Element45"
+            "en": "Rhodium",
+            "fr": "Rhodium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 9,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            5
+            16,
+            1
         ]
     },
     {
         "id": 46,
         "z": 46,
-        "a": 46.5,
-        "symbol": "E46",
+        "a": 106.42,
+        "symbol": "Pd",
         "name": {
-            "en": "Element46",
-            "fr": "Element46"
+            "en": "Palladium",
+            "fr": "Palladium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 10,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            6
+            18
         ]
     },
     {
         "id": 47,
         "z": 47,
-        "a": 47.5,
-        "symbol": "E47",
+        "a": 107.87,
+        "symbol": "Ag",
         "name": {
-            "en": "Element47",
-            "fr": "Element47"
+            "en": "Silver",
+            "fr": "Argent"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 11,
         "electrons": [
             2,
             8,
             18,
-            32,
             18,
-            8,
-            7
+            1
         ]
     },
     {
         "id": 48,
         "z": 48,
-        "a": 48.5,
-        "symbol": "E48",
+        "a": 112.414,
+        "symbol": "Cd",
         "name": {
-            "en": "Element48",
-            "fr": "Element48"
+            "en": "Cadmium",
+            "fr": "Cadmium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 5,
         "column": 12,
         "electrons": [
             2,
             8,
             18,
-            32,
             18,
-            8,
-            0
+            2
         ]
     },
     {
         "id": 49,
         "z": 49,
-        "a": 49.5,
-        "symbol": "E49",
+        "a": 114.818,
+        "symbol": "In",
         "name": {
-            "en": "Element49",
-            "fr": "Element49"
+            "en": "Indium",
+            "fr": "Indium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "post-transition-metal",
+        "row": 5,
         "column": 13,
         "electrons": [
             2,
             8,
             18,
-            32,
+            18,
+            3
+        ]
+    },
+    {
+        "id": 50,
+        "z": 50,
+        "a": 118.71,
+        "symbol": "Sn",
+        "name": {
+            "en": "Tin",
+            "fr": "Étain"
+        },
+        "category": "post-transition-metal",
+        "row": 5,
+        "column": 14,
+        "electrons": [
+            2,
+            8,
+            18,
+            18,
+            4
+        ]
+    },
+    {
+        "id": 51,
+        "z": 51,
+        "a": 121.76,
+        "symbol": "Sb",
+        "name": {
+            "en": "Antimony",
+            "fr": "Antimoine"
+        },
+        "category": "metalloid",
+        "row": 5,
+        "column": 15,
+        "electrons": [
+            2,
+            8,
+            18,
+            18,
+            5
+        ]
+    },
+    {
+        "id": 52,
+        "z": 52,
+        "a": 127.6,
+        "symbol": "Te",
+        "name": {
+            "en": "Tellurium",
+            "fr": "Tellure"
+        },
+        "category": "metalloid",
+        "row": 5,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            18,
+            18,
+            6
+        ]
+    },
+    {
+        "id": 53,
+        "z": 53,
+        "a": 126.904,
+        "symbol": "I",
+        "name": {
+            "en": "Iodine",
+            "fr": "Iode"
+        },
+        "category": "halogen",
+        "row": 5,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            18,
+            7
+        ]
+    },
+    {
+        "id": 54,
+        "z": 54,
+        "a": 131.29,
+        "symbol": "Xe",
+        "name": {
+            "en": "Xenon",
+            "fr": "Xénon"
+        },
+        "category": "noble-gas",
+        "row": 5,
+        "column": 18,
+        "electrons": [
+            2,
+            8,
+            18,
+            18,
+            8
+        ]
+    },
+    {
+        "id": 55,
+        "z": 55,
+        "a": 132.905,
+        "symbol": "Cs",
+        "name": {
+            "en": "Cesium",
+            "fr": "Césium"
+        },
+        "category": "alkali",
+        "row": 6,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
             18,
             8,
             1
         ]
     },
     {
-        "id": 50,
-        "z": 50,
-        "a": 50.5,
-        "symbol": "E50",
+        "id": 56,
+        "z": 56,
+        "a": 137.33,
+        "symbol": "Ba",
         "name": {
-            "en": "Element50",
-            "fr": "Element50"
+            "en": "Barium",
+            "fr": "Baryum"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 14,
+        "category": "alkaline-earth",
+        "row": 6,
+        "column": 2,
         "electrons": [
             2,
             8,
             18,
-            32,
             18,
             8,
             2
         ]
     },
     {
-        "id": 51,
-        "z": 51,
-        "a": 51.5,
-        "symbol": "E51",
-        "name": {
-            "en": "Element51",
-            "fr": "Element51"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 15,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            3
-        ]
-    },
-    {
-        "id": 52,
-        "z": 52,
-        "a": 52.5,
-        "symbol": "E52",
-        "name": {
-            "en": "Element52",
-            "fr": "Element52"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 16,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            4
-        ]
-    },
-    {
-        "id": 53,
-        "z": 53,
-        "a": 53.5,
-        "symbol": "E53",
-        "name": {
-            "en": "Element53",
-            "fr": "Element53"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 17,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            5
-        ]
-    },
-    {
-        "id": 54,
-        "z": 54,
-        "a": 54.5,
-        "symbol": "E54",
-        "name": {
-            "en": "Element54",
-            "fr": "Element54"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            6
-        ]
-    },
-    {
-        "id": 55,
-        "z": 55,
-        "a": 55.5,
-        "symbol": "E55",
-        "name": {
-            "en": "Element55",
-            "fr": "Element55"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            7
-        ]
-    },
-    {
-        "id": 56,
-        "z": 56,
-        "a": 56.5,
-        "symbol": "E56",
-        "name": {
-            "en": "Element56",
-            "fr": "Element56"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 2,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            0
-        ]
-    },
-    {
         "id": 57,
         "z": 57,
-        "a": 57.5,
-        "symbol": "E57",
+        "a": 138.91,
+        "symbol": "La",
         "name": {
-            "en": "Element57",
-            "fr": "Element57"
+            "en": "Lanthanum",
+            "fr": "Lanthane"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "lanthanide",
+        "row": 6,
         "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
             18,
-            8,
-            1
+            9,
+            2
         ]
     },
     {
         "id": 58,
         "z": 58,
-        "a": 58.5,
-        "symbol": "E58",
+        "a": 140.12,
+        "symbol": "Ce",
         "name": {
-            "en": "Element58",
-            "fr": "Element58"
+            "en": "Cerium",
+            "fr": "Cérium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 4,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
+            19,
+            9,
             2
         ]
     },
     {
         "id": 59,
         "z": 59,
-        "a": 59.5,
-        "symbol": "E59",
+        "a": 140.91,
+        "symbol": "Pr",
         "name": {
-            "en": "Element59",
-            "fr": "Element59"
+            "en": "Praseodymium",
+            "fr": "Praséodyme"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 5,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
+            21,
             8,
-            3
+            2
         ]
     },
     {
         "id": 60,
         "z": 60,
-        "a": 60.5,
-        "symbol": "E60",
+        "a": 144.24,
+        "symbol": "Nd",
         "name": {
-            "en": "Element60",
-            "fr": "Element60"
+            "en": "Neodymium",
+            "fr": "Néodyme"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 6,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
+            22,
             8,
-            4
+            2
         ]
     },
     {
         "id": 61,
         "z": 61,
-        "a": 61.5,
-        "symbol": "E61",
+        "a": 145,
+        "symbol": "Pm",
         "name": {
-            "en": "Element61",
-            "fr": "Element61"
+            "en": "Promethium",
+            "fr": "Prométhium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 7,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
+            23,
             8,
-            5
+            2
         ]
     },
     {
         "id": 62,
         "z": 62,
-        "a": 62.5,
-        "symbol": "E62",
+        "a": 150.36,
+        "symbol": "Sm",
         "name": {
-            "en": "Element62",
-            "fr": "Element62"
+            "en": "Samarium",
+            "fr": "Samarium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 8,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
+            24,
             8,
-            6
+            2
         ]
     },
     {
         "id": 63,
         "z": 63,
-        "a": 63.5,
-        "symbol": "E63",
+        "a": 151.96,
+        "symbol": "Eu",
         "name": {
-            "en": "Element63",
-            "fr": "Element63"
+            "en": "Europium",
+            "fr": "Europium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 9,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
+            25,
             8,
-            7
+            2
         ]
     },
     {
         "id": 64,
         "z": 64,
-        "a": 64.5,
-        "symbol": "E64",
+        "a": 157.25,
+        "symbol": "Gd",
         "name": {
-            "en": "Element64",
-            "fr": "Element64"
+            "en": "Gadolinium",
+            "fr": "Gadolinium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 10,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            0
+            25,
+            9,
+            2
         ]
     },
     {
         "id": 65,
         "z": 65,
-        "a": 65.5,
-        "symbol": "E65",
+        "a": 158.93,
+        "symbol": "Tb",
         "name": {
-            "en": "Element65",
-            "fr": "Element65"
+            "en": "Terbium",
+            "fr": "Terbium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 11,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
+            27,
             8,
-            1
+            2
         ]
     },
     {
         "id": 66,
         "z": 66,
-        "a": 66.5,
-        "symbol": "E66",
+        "a": 162.5,
+        "symbol": "Dy",
         "name": {
-            "en": "Element66",
-            "fr": "Element66"
+            "en": "Dysprosium",
+            "fr": "Dysprosium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 12,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
+            28,
             8,
             2
         ]
@@ -1364,366 +1267,266 @@
     {
         "id": 67,
         "z": 67,
-        "a": 67.5,
-        "symbol": "E67",
+        "a": 164.93,
+        "symbol": "Ho",
         "name": {
-            "en": "Element67",
-            "fr": "Element67"
+            "en": "Holmium",
+            "fr": "Holmium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 13,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
-            32,
-            18,
-            8,
-            3
-        ]
-    },
-    {
-        "id": 68,
-        "z": 68,
-        "a": 68.5,
-        "symbol": "E68",
-        "name": {
-            "en": "Element68",
-            "fr": "Element68"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 14,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            4
-        ]
-    },
-    {
-        "id": 69,
-        "z": 69,
-        "a": 69.5,
-        "symbol": "E69",
-        "name": {
-            "en": "Element69",
-            "fr": "Element69"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 15,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            5
-        ]
-    },
-    {
-        "id": 70,
-        "z": 70,
-        "a": 70.5,
-        "symbol": "E70",
-        "name": {
-            "en": "Element70",
-            "fr": "Element70"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 16,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            6
-        ]
-    },
-    {
-        "id": 71,
-        "z": 71,
-        "a": 71.5,
-        "symbol": "E71",
-        "name": {
-            "en": "Element71",
-            "fr": "Element71"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 17,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            7
-        ]
-    },
-    {
-        "id": 72,
-        "z": 72,
-        "a": 72.5,
-        "symbol": "E72",
-        "name": {
-            "en": "Element72",
-            "fr": "Element72"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            0
-        ]
-    },
-    {
-        "id": 73,
-        "z": 73,
-        "a": 73.5,
-        "symbol": "E73",
-        "name": {
-            "en": "Element73",
-            "fr": "Element73"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            1
-        ]
-    },
-    {
-        "id": 74,
-        "z": 74,
-        "a": 74.5,
-        "symbol": "E74",
-        "name": {
-            "en": "Element74",
-            "fr": "Element74"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 2,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
+            29,
             8,
             2
         ]
     },
     {
-        "id": 75,
-        "z": 75,
-        "a": 75.5,
-        "symbol": "E75",
+        "id": 68,
+        "z": 68,
+        "a": 167.26,
+        "symbol": "Er",
         "name": {
-            "en": "Element75",
-            "fr": "Element75"
+            "en": "Erbium",
+            "fr": "Erbium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            30,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 69,
+        "z": 69,
+        "a": 168.93,
+        "symbol": "Tm",
+        "name": {
+            "en": "Thulium",
+            "fr": "Thulium"
+        },
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            31,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 70,
+        "z": 70,
+        "a": 173.05,
+        "symbol": "Yb",
+        "name": {
+            "en": "Ytterbium",
+            "fr": "Ytterbium"
+        },
+        "category": "lanthanide",
+        "row": 6,
         "column": 3,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
             8,
-            3
+            2
         ]
     },
     {
-        "id": 76,
-        "z": 76,
-        "a": 76.5,
-        "symbol": "E76",
+        "id": 71,
+        "z": 71,
+        "a": 174.97,
+        "symbol": "Lu",
         "name": {
-            "en": "Element76",
-            "fr": "Element76"
+            "en": "Lutetium",
+            "fr": "Lutécium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "lanthanide",
+        "row": 6,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            9,
+            2
+        ]
+    },
+    {
+        "id": 72,
+        "z": 72,
+        "a": 178.49,
+        "symbol": "Hf",
+        "name": {
+            "en": "Hafnium",
+            "fr": "Hafnium"
+        },
+        "category": "transition-metal",
+        "row": 6,
         "column": 4,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
-            8,
-            4
+            10,
+            2
         ]
     },
     {
-        "id": 77,
-        "z": 77,
-        "a": 77.5,
-        "symbol": "E77",
+        "id": 73,
+        "z": 73,
+        "a": 180.95,
+        "symbol": "Ta",
         "name": {
-            "en": "Element77",
-            "fr": "Element77"
+            "en": "Tantalum",
+            "fr": "Tantale"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 6,
         "column": 5,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
-            8,
-            5
+            11,
+            2
         ]
     },
     {
-        "id": 78,
-        "z": 78,
-        "a": 78.5,
-        "symbol": "E78",
+        "id": 74,
+        "z": 74,
+        "a": 183.84,
+        "symbol": "W",
         "name": {
-            "en": "Element78",
-            "fr": "Element78"
+            "en": "Tungsten",
+            "fr": "Tungstène"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 6,
         "column": 6,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
-            8,
-            6
+            12,
+            2
         ]
     },
     {
-        "id": 79,
-        "z": 79,
-        "a": 79.5,
-        "symbol": "E79",
+        "id": 75,
+        "z": 75,
+        "a": 186.21,
+        "symbol": "Re",
         "name": {
-            "en": "Element79",
-            "fr": "Element79"
+            "en": "Rhenium",
+            "fr": "Rhénium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 6,
         "column": 7,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
-            8,
-            7
+            13,
+            2
         ]
     },
     {
-        "id": 80,
-        "z": 80,
-        "a": 80.5,
-        "symbol": "E80",
+        "id": 76,
+        "z": 76,
+        "a": 190.23,
+        "symbol": "Os",
         "name": {
-            "en": "Element80",
-            "fr": "Element80"
+            "en": "Osmium",
+            "fr": "Osmium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 6,
         "column": 8,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
-            8,
-            0
+            14,
+            2
         ]
     },
     {
-        "id": 81,
-        "z": 81,
-        "a": 81.5,
-        "symbol": "E81",
+        "id": 77,
+        "z": 77,
+        "a": 192.22,
+        "symbol": "Ir",
         "name": {
-            "en": "Element81",
-            "fr": "Element81"
+            "en": "Iridium",
+            "fr": "Iridium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 6,
         "column": 9,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
-            8,
-            1
+            15,
+            2
         ]
     },
     {
-        "id": 82,
-        "z": 82,
-        "a": 82.5,
-        "symbol": "E82",
+        "id": 78,
+        "z": 78,
+        "a": 195.08,
+        "symbol": "Pt",
         "name": {
-            "en": "Element82",
-            "fr": "Element82"
+            "en": "Platinum",
+            "fr": "Platine"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 6,
         "column": 10,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
-            8,
-            2
+            17,
+            1
         ]
     },
     {
-        "id": 83,
-        "z": 83,
-        "a": 83.5,
-        "symbol": "E83",
+        "id": 79,
+        "z": 79,
+        "a": 196.97,
+        "symbol": "Au",
         "name": {
-            "en": "Element83",
-            "fr": "Element83"
+            "en": "Gold",
+            "fr": "Or"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 6,
         "column": 11,
         "electrons": [
             2,
@@ -1731,21 +1534,20 @@
             18,
             32,
             18,
-            8,
-            3
+            1
         ]
     },
     {
-        "id": 84,
-        "z": 84,
-        "a": 84.5,
-        "symbol": "E84",
+        "id": 80,
+        "z": 80,
+        "a": 200.59,
+        "symbol": "Hg",
         "name": {
-            "en": "Element84",
-            "fr": "Element84"
+            "en": "Mercury",
+            "fr": "Mercure"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "transition-metal",
+        "row": 6,
         "column": 12,
         "electrons": [
             2,
@@ -1753,21 +1555,20 @@
             18,
             32,
             18,
-            8,
-            4
+            2
         ]
     },
     {
-        "id": 85,
-        "z": 85,
-        "a": 85.5,
-        "symbol": "E85",
+        "id": 81,
+        "z": 81,
+        "a": 204.38,
+        "symbol": "Tl",
         "name": {
-            "en": "Element85",
-            "fr": "Element85"
+            "en": "Thallium",
+            "fr": "Thallium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "post-transition-metal",
+        "row": 6,
         "column": 13,
         "electrons": [
             2,
@@ -1775,21 +1576,20 @@
             18,
             32,
             18,
-            8,
-            5
+            3
         ]
     },
     {
-        "id": 86,
-        "z": 86,
-        "a": 86.5,
-        "symbol": "E86",
+        "id": 82,
+        "z": 82,
+        "a": 207.2,
+        "symbol": "Pb",
         "name": {
-            "en": "Element86",
-            "fr": "Element86"
+            "en": "Lead",
+            "fr": "Plomb"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "post-transition-metal",
+        "row": 6,
         "column": 14,
         "electrons": [
             2,
@@ -1797,21 +1597,20 @@
             18,
             32,
             18,
-            8,
-            6
+            4
         ]
     },
     {
-        "id": 87,
-        "z": 87,
-        "a": 87.5,
-        "symbol": "E87",
+        "id": 83,
+        "z": 83,
+        "a": 208.98,
+        "symbol": "Bi",
         "name": {
-            "en": "Element87",
-            "fr": "Element87"
+            "en": "Bismuth",
+            "fr": "Bismuth"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "post-transition-metal",
+        "row": 6,
         "column": 15,
         "electrons": [
             2,
@@ -1819,21 +1618,20 @@
             18,
             32,
             18,
-            8,
-            7
+            5
         ]
     },
     {
-        "id": 88,
-        "z": 88,
-        "a": 88.5,
-        "symbol": "E88",
+        "id": 84,
+        "z": 84,
+        "a": 209,
+        "symbol": "Po",
         "name": {
-            "en": "Element88",
-            "fr": "Element88"
+            "en": "Polonium",
+            "fr": "Polonium"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "post-transition-metal",
+        "row": 6,
         "column": 16,
         "electrons": [
             2,
@@ -1841,22 +1639,63 @@
             18,
             32,
             18,
-            8,
-            0
+            6
         ]
     },
     {
-        "id": 89,
-        "z": 89,
-        "a": 89.5,
-        "symbol": "E89",
+        "id": 85,
+        "z": 85,
+        "a": 210,
+        "symbol": "At",
         "name": {
-            "en": "Element89",
-            "fr": "Element89"
+            "en": "Astatine",
+            "fr": "Astate"
         },
-        "category": "transition",
-        "row": 7,
+        "category": "halogen",
+        "row": 6,
         "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            7
+        ]
+    },
+    {
+        "id": 86,
+        "z": 86,
+        "a": 222,
+        "symbol": "Rn",
+        "name": {
+            "en": "Radon",
+            "fr": "Radon"
+        },
+        "category": "noble-gas",
+        "row": 6,
+        "column": 18,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8
+        ]
+    },
+    {
+        "id": 87,
+        "z": 87,
+        "a": 223,
+        "symbol": "Fr",
+        "name": {
+            "en": "Francium",
+            "fr": "Francium"
+        },
+        "category": "alkali",
+        "row": 7,
+        "column": 1,
         "electrons": [
             2,
             8,
@@ -1868,17 +1707,17 @@
         ]
     },
     {
-        "id": 90,
-        "z": 90,
-        "a": 90.5,
-        "symbol": "E90",
+        "id": 88,
+        "z": 88,
+        "a": 226,
+        "symbol": "Ra",
         "name": {
-            "en": "Element90",
-            "fr": "Element90"
+            "en": "Radium",
+            "fr": "Radium"
         },
-        "category": "transition",
+        "category": "alkaline-earth",
         "row": 7,
-        "column": 1,
+        "column": 2,
         "electrons": [
             2,
             8,
@@ -1890,59 +1729,15 @@
         ]
     },
     {
-        "id": 91,
-        "z": 91,
-        "a": 91.5,
-        "symbol": "E91",
+        "id": 89,
+        "z": 89,
+        "a": 227,
+        "symbol": "Ac",
         "name": {
-            "en": "Element91",
-            "fr": "Element91"
+            "en": "Actinium",
+            "fr": "Actinium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            3
-        ]
-    },
-    {
-        "id": 92,
-        "z": 92,
-        "a": 92.5,
-        "symbol": "E92",
-        "name": {
-            "en": "Element92",
-            "fr": "Element92"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 2,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            4
-        ]
-    },
-    {
-        "id": 93,
-        "z": 93,
-        "a": 93.5,
-        "symbol": "E93",
-        "name": {
-            "en": "Element93",
-            "fr": "Element93"
-        },
-        "category": "transition",
+        "category": "actinide",
         "row": 7,
         "column": 3,
         "electrons": [
@@ -1951,116 +1746,204 @@
             18,
             32,
             18,
+            9,
+            2
+        ]
+    },
+    {
+        "id": 90,
+        "z": 90,
+        "a": 232.04,
+        "symbol": "Th",
+        "name": {
+            "en": "Thorium",
+            "fr": "Thorium"
+        },
+        "category": "actinide",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
             8,
-            5
+            18,
+            32,
+            18,
+            10,
+            2
+        ]
+    },
+    {
+        "id": 91,
+        "z": 91,
+        "a": 231.04,
+        "symbol": "Pa",
+        "name": {
+            "en": "Protactinium",
+            "fr": "Protactinium"
+        },
+        "category": "actinide",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            20,
+            9,
+            2
+        ]
+    },
+    {
+        "id": 92,
+        "z": 92,
+        "a": 238.03,
+        "symbol": "U",
+        "name": {
+            "en": "Uranium",
+            "fr": "Uranium"
+        },
+        "category": "actinide",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            21,
+            9,
+            2
+        ]
+    },
+    {
+        "id": 93,
+        "z": 93,
+        "a": 237,
+        "symbol": "Np",
+        "name": {
+            "en": "Neptunium",
+            "fr": "Neptunium"
+        },
+        "category": "actinide",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            22,
+            9,
+            2
         ]
     },
     {
         "id": 94,
         "z": 94,
-        "a": 94.5,
-        "symbol": "E94",
+        "a": 244,
+        "symbol": "Pu",
         "name": {
-            "en": "Element94",
-            "fr": "Element94"
+            "en": "Plutonium",
+            "fr": "Plutonium"
         },
-        "category": "transition",
+        "category": "actinide",
         "row": 7,
-        "column": 4,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
+            24,
             8,
-            6
+            2
         ]
     },
     {
         "id": 95,
         "z": 95,
-        "a": 95.5,
-        "symbol": "E95",
+        "a": 243,
+        "symbol": "Am",
         "name": {
-            "en": "Element95",
-            "fr": "Element95"
+            "en": "Americium",
+            "fr": "Américium"
         },
-        "category": "transition",
+        "category": "actinide",
         "row": 7,
-        "column": 5,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
+            25,
             8,
-            7
+            2
         ]
     },
     {
         "id": 96,
         "z": 96,
-        "a": 96.5,
-        "symbol": "E96",
+        "a": 247,
+        "symbol": "Cm",
         "name": {
-            "en": "Element96",
-            "fr": "Element96"
+            "en": "Curium",
+            "fr": "Curium"
         },
-        "category": "transition",
+        "category": "actinide",
         "row": 7,
-        "column": 6,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
-            8,
-            0
+            25,
+            9,
+            2
         ]
     },
     {
         "id": 97,
         "z": 97,
-        "a": 97.5,
-        "symbol": "E97",
+        "a": 247,
+        "symbol": "Bk",
         "name": {
-            "en": "Element97",
-            "fr": "Element97"
+            "en": "Berkelium",
+            "fr": "Berkélium"
         },
-        "category": "transition",
+        "category": "actinide",
         "row": 7,
-        "column": 7,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
+            27,
             8,
-            1
+            2
         ]
     },
     {
         "id": 98,
         "z": 98,
-        "a": 98.5,
-        "symbol": "E98",
+        "a": 251,
+        "symbol": "Cf",
         "name": {
-            "en": "Element98",
-            "fr": "Element98"
+            "en": "Californium",
+            "fr": "Californium"
         },
-        "category": "transition",
+        "category": "actinide",
         "row": 7,
-        "column": 8,
+        "column": 3,
         "electrons": [
             2,
             8,
             18,
             32,
-            18,
+            28,
             8,
             2
         ]
@@ -2068,277 +1951,13 @@
     {
         "id": 99,
         "z": 99,
-        "a": 99.5,
-        "symbol": "E99",
+        "a": 252,
+        "symbol": "Es",
         "name": {
-            "en": "Element99",
-            "fr": "Element99"
+            "en": "Einsteinium",
+            "fr": "Einsteinium"
         },
-        "category": "transition",
-        "row": 7,
-        "column": 9,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            3
-        ]
-    },
-    {
-        "id": 100,
-        "z": 100,
-        "a": 100.5,
-        "symbol": "E100",
-        "name": {
-            "en": "Element100",
-            "fr": "Element100"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 10,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            4
-        ]
-    },
-    {
-        "id": 101,
-        "z": 101,
-        "a": 101.5,
-        "symbol": "E101",
-        "name": {
-            "en": "Element101",
-            "fr": "Element101"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 11,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            5
-        ]
-    },
-    {
-        "id": 102,
-        "z": 102,
-        "a": 102.5,
-        "symbol": "E102",
-        "name": {
-            "en": "Element102",
-            "fr": "Element102"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 12,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            6
-        ]
-    },
-    {
-        "id": 103,
-        "z": 103,
-        "a": 103.5,
-        "symbol": "E103",
-        "name": {
-            "en": "Element103",
-            "fr": "Element103"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 13,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            7
-        ]
-    },
-    {
-        "id": 104,
-        "z": 104,
-        "a": 104.5,
-        "symbol": "E104",
-        "name": {
-            "en": "Element104",
-            "fr": "Element104"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 14,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            0
-        ]
-    },
-    {
-        "id": 105,
-        "z": 105,
-        "a": 105.5,
-        "symbol": "E105",
-        "name": {
-            "en": "Element105",
-            "fr": "Element105"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 15,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            1
-        ]
-    },
-    {
-        "id": 106,
-        "z": 106,
-        "a": 106.5,
-        "symbol": "E106",
-        "name": {
-            "en": "Element106",
-            "fr": "Element106"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 16,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            2
-        ]
-    },
-    {
-        "id": 107,
-        "z": 107,
-        "a": 107.5,
-        "symbol": "E107",
-        "name": {
-            "en": "Element107",
-            "fr": "Element107"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 17,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            3
-        ]
-    },
-    {
-        "id": 108,
-        "z": 108,
-        "a": 108.5,
-        "symbol": "E108",
-        "name": {
-            "en": "Element108",
-            "fr": "Element108"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            4
-        ]
-    },
-    {
-        "id": 109,
-        "z": 109,
-        "a": 109.5,
-        "symbol": "E109",
-        "name": {
-            "en": "Element109",
-            "fr": "Element109"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 1,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            5
-        ]
-    },
-    {
-        "id": 110,
-        "z": 110,
-        "a": 110.5,
-        "symbol": "E110",
-        "name": {
-            "en": "Element110",
-            "fr": "Element110"
-        },
-        "category": "transition",
-        "row": 7,
-        "column": 2,
-        "electrons": [
-            2,
-            8,
-            18,
-            32,
-            18,
-            8,
-            6
-        ]
-    },
-    {
-        "id": 111,
-        "z": 111,
-        "a": 111.5,
-        "symbol": "E111",
-        "name": {
-            "en": "Element111",
-            "fr": "Element111"
-        },
-        "category": "transition",
+        "category": "actinide",
         "row": 7,
         "column": 3,
         "electrons": [
@@ -2346,21 +1965,109 @@
             8,
             18,
             32,
-            18,
+            29,
             8,
-            7
+            2
         ]
     },
     {
-        "id": 112,
-        "z": 112,
-        "a": 112.5,
-        "symbol": "E112",
+        "id": 100,
+        "z": 100,
+        "a": 257,
+        "symbol": "Fm",
         "name": {
-            "en": "Element112",
-            "fr": "Element112"
+            "en": "Fermium",
+            "fr": "Fermium"
         },
-        "category": "transition",
+        "category": "actinide",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            30,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 101,
+        "z": 101,
+        "a": 258,
+        "symbol": "Md",
+        "name": {
+            "en": "Mendelevium",
+            "fr": "Mendélévium"
+        },
+        "category": "actinide",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            31,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 102,
+        "z": 102,
+        "a": 259,
+        "symbol": "No",
+        "name": {
+            "en": "Nobelium",
+            "fr": "Nobélium"
+        },
+        "category": "actinide",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 103,
+        "z": 103,
+        "a": 266,
+        "symbol": "Lr",
+        "name": {
+            "en": "Lawrencium",
+            "fr": "Lawrencium"
+        },
+        "category": "actinide",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 104,
+        "z": 104,
+        "a": 267,
+        "symbol": "Rf",
+        "name": {
+            "en": "Rutherfordium",
+            "fr": "Rutherfordium"
+        },
+        "category": "transition-metal",
         "row": 7,
         "column": 4,
         "electrons": [
@@ -2368,21 +2075,21 @@
             8,
             18,
             32,
-            18,
-            8,
-            0
+            32,
+            10,
+            2
         ]
     },
     {
-        "id": 113,
-        "z": 113,
-        "a": 113.5,
-        "symbol": "E113",
+        "id": 105,
+        "z": 105,
+        "a": 268,
+        "symbol": "Db",
         "name": {
-            "en": "Element113",
-            "fr": "Element113"
+            "en": "Dubnium",
+            "fr": "Dubnium"
         },
-        "category": "transition",
+        "category": "transition-metal",
         "row": 7,
         "column": 5,
         "electrons": [
@@ -2390,21 +2097,21 @@
             8,
             18,
             32,
-            18,
-            8,
-            1
+            32,
+            11,
+            2
         ]
     },
     {
-        "id": 114,
-        "z": 114,
-        "a": 114.5,
-        "symbol": "E114",
+        "id": 106,
+        "z": 106,
+        "a": 269,
+        "symbol": "Sg",
         "name": {
-            "en": "Element114",
-            "fr": "Element114"
+            "en": "Seaborgium",
+            "fr": "Seaborgium"
         },
-        "category": "transition",
+        "category": "transition-metal",
         "row": 7,
         "column": 6,
         "electrons": [
@@ -2412,21 +2119,21 @@
             8,
             18,
             32,
-            18,
-            8,
+            32,
+            12,
             2
         ]
     },
     {
-        "id": 115,
-        "z": 115,
-        "a": 115.5,
-        "symbol": "E115",
+        "id": 107,
+        "z": 107,
+        "a": 270,
+        "symbol": "Bh",
         "name": {
-            "en": "Element115",
-            "fr": "Element115"
+            "en": "Bohrium",
+            "fr": "Bohrium"
         },
-        "category": "transition",
+        "category": "transition-metal",
         "row": 7,
         "column": 7,
         "electrons": [
@@ -2434,21 +2141,21 @@
             8,
             18,
             32,
-            18,
-            8,
-            3
+            32,
+            13,
+            2
         ]
     },
     {
-        "id": 116,
-        "z": 116,
-        "a": 116.5,
-        "symbol": "E116",
+        "id": 108,
+        "z": 108,
+        "a": 270,
+        "symbol": "Hs",
         "name": {
-            "en": "Element116",
-            "fr": "Element116"
+            "en": "Hassium",
+            "fr": "Hassium"
         },
-        "category": "transition",
+        "category": "transition-metal",
         "row": 7,
         "column": 8,
         "electrons": [
@@ -2456,21 +2163,21 @@
             8,
             18,
             32,
-            18,
-            8,
-            4
+            32,
+            14,
+            2
         ]
     },
     {
-        "id": 117,
-        "z": 117,
-        "a": 117.5,
-        "symbol": "E117",
+        "id": 109,
+        "z": 109,
+        "a": 278,
+        "symbol": "Mt",
         "name": {
-            "en": "Element117",
-            "fr": "Element117"
+            "en": "Meitnerium",
+            "fr": "Meitnérium"
         },
-        "category": "transition",
+        "category": "transition-metal",
         "row": 7,
         "column": 9,
         "electrons": [
@@ -2478,21 +2185,21 @@
             8,
             18,
             32,
-            18,
-            8,
-            5
+            32,
+            15,
+            2
         ]
     },
     {
-        "id": 118,
-        "z": 118,
-        "a": 118.5,
-        "symbol": "E118",
+        "id": 110,
+        "z": 110,
+        "a": 281,
+        "symbol": "Ds",
         "name": {
-            "en": "Element118",
-            "fr": "Element118"
+            "en": "Darmstadtium",
+            "fr": "Darmstadtium"
         },
-        "category": "transition",
+        "category": "transition-metal",
         "row": 7,
         "column": 10,
         "electrons": [
@@ -2500,9 +2207,185 @@
             8,
             18,
             32,
-            18,
+            32,
+            16,
+            2
+        ]
+    },
+    {
+        "id": 111,
+        "z": 111,
+        "a": 282,
+        "symbol": "Rg",
+        "name": {
+            "en": "Roentgenium",
+            "fr": "Roentgenium"
+        },
+        "category": "transition-metal",
+        "row": 7,
+        "column": 11,
+        "electrons": [
+            2,
             8,
+            18,
+            32,
+            32,
+            17,
+            2
+        ]
+    },
+    {
+        "id": 112,
+        "z": 112,
+        "a": 285,
+        "symbol": "Cn",
+        "name": {
+            "en": "Copernicium",
+            "fr": "Copernicium"
+        },
+        "category": "transition-metal",
+        "row": 7,
+        "column": 12,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            18,
+            2
+        ]
+    },
+    {
+        "id": 113,
+        "z": 113,
+        "a": 286,
+        "symbol": "Nh",
+        "name": {
+            "en": "Nihonium",
+            "fr": "Nihonium"
+        },
+        "category": "post-transition-metal",
+        "row": 7,
+        "column": 13,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            18,
+            3
+        ]
+    },
+    {
+        "id": 114,
+        "z": 114,
+        "a": 289,
+        "symbol": "Fl",
+        "name": {
+            "en": "Flerovium",
+            "fr": "Flérovium"
+        },
+        "category": "post-transition-metal",
+        "row": 7,
+        "column": 14,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            18,
+            4
+        ]
+    },
+    {
+        "id": 115,
+        "z": 115,
+        "a": 290,
+        "symbol": "Mc",
+        "name": {
+            "en": "Moscovium",
+            "fr": "Moscovium"
+        },
+        "category": "post-transition-metal",
+        "row": 7,
+        "column": 15,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            18,
+            5
+        ]
+    },
+    {
+        "id": 116,
+        "z": 116,
+        "a": 293,
+        "symbol": "Lv",
+        "name": {
+            "en": "Livermorium",
+            "fr": "Livermorium"
+        },
+        "category": "post-transition-metal",
+        "row": 7,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            18,
             6
+        ]
+    },
+    {
+        "id": 117,
+        "z": 117,
+        "a": 294,
+        "symbol": "Ts",
+        "name": {
+            "en": "Tennessine",
+            "fr": "Tennessine"
+        },
+        "category": "halogen",
+        "row": 7,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            18,
+            7
+        ]
+    },
+    {
+        "id": 118,
+        "z": 118,
+        "a": 294,
+        "symbol": "Og",
+        "name": {
+            "en": "Oganesson",
+            "fr": "Oganesson"
+        },
+        "category": "noble-gas",
+        "row": 7,
+        "column": 18,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            32,
+            18,
+            8
         ]
     }
 ]
