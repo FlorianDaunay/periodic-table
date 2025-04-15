@@ -1,0 +1,154 @@
+:root {
+    --bg: #ffffff;
+    --text: #111111;
+    --card: #f4f4f4;
+    --border: #cccccc;
+}
+
+[data-theme='dark'] {
+    --bg: #121212;
+    --text: #e0e0e0;
+    --card: #1e1e1e;
+    --border: #444444;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+}
+
+#table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 4px;
+    padding: 1rem;
+}
+
+.element {
+    background: var(--card);
+    border: 3px solid var(--border);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.element:hover {
+    transform: scale(1.05);
+}
+
+.element .symbol {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.element .z,
+.element .a {
+    font-size: 0.8rem;
+}
+
+.element .tooltip {
+    display: none;
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.element:hover .tooltip {
+    display: block;
+}
+
+#legend {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 4px;
+}
+
+
+#element-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+#element-details {
+    background: var(--card);
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 3px solid var(--border);
+}
+
+#element-details .symbol {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#element-details .z,
+#element-details .a {
+    font-size: 1.2rem;
+}
+
+#shell-diagram svg {
+    width: 200px;
+    height: 200px;
+}
+
+#lewis-notation {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lewis-notation .dot {
+    width: 10px;
+    height: 10px;
+    background: var(--text);
+    border-radius: 50%;
+    margin: 4px;
+}
+
+#back-btn {
+    background: none;
+    border: 2px solid var(--text);
+    color: var(--text);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,2508 @@
+[
+    {
+        "id": 1,
+        "z": 1,
+        "a": 1.008,
+        "symbol": "H",
+        "name": {
+            "en": "Hydrogen",
+            "fr": "Hydrog\u00e8ne"
+        },
+        "category": "nonmetal",
+        "row": 1,
+        "column": 1,
+        "electrons": [
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "z": 2,
+        "a": 4.0026,
+        "symbol": "He",
+        "name": {
+            "en": "Helium",
+            "fr": "H\u00e9lium"
+        },
+        "category": "noble-gas",
+        "row": 1,
+        "column": 18,
+        "electrons": [
+            2
+        ]
+    },
+    {
+        "id": 3,
+        "z": 3,
+        "a": 6.94,
+        "symbol": "Li",
+        "name": {
+            "en": "Lithium",
+            "fr": "Lithium"
+        },
+        "category": "alkali",
+        "row": 2,
+        "column": 1,
+        "electrons": [
+            2,
+            1
+        ]
+    },
+    {
+        "id": 4,
+        "z": 4,
+        "a": 9.0122,
+        "symbol": "Be",
+        "name": {
+            "en": "Beryllium",
+            "fr": "B\u00e9ryllium"
+        },
+        "category": "alkaline-earth",
+        "row": 2,
+        "column": 2,
+        "electrons": [
+            2,
+            2
+        ]
+    },
+    {
+        "id": 5,
+        "z": 5,
+        "a": 10.81,
+        "symbol": "B",
+        "name": {
+            "en": "Boron",
+            "fr": "Bore"
+        },
+        "category": "metalloid",
+        "row": 2,
+        "column": 13,
+        "electrons": [
+            2,
+            3
+        ]
+    },
+    {
+        "id": 6,
+        "z": 6,
+        "a": 12.011,
+        "symbol": "C",
+        "name": {
+            "en": "Carbon",
+            "fr": "Carbone"
+        },
+        "category": "nonmetal",
+        "row": 2,
+        "column": 14,
+        "electrons": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 7,
+        "z": 7,
+        "a": 14.007,
+        "symbol": "N",
+        "name": {
+            "en": "Nitrogen",
+            "fr": "Azote"
+        },
+        "category": "nonmetal",
+        "row": 2,
+        "column": 15,
+        "electrons": [
+            2,
+            5
+        ]
+    },
+    {
+        "id": 8,
+        "z": 8,
+        "a": 15.999,
+        "symbol": "O",
+        "name": {
+            "en": "Oxygen",
+            "fr": "Oxyg\u00e8ne"
+        },
+        "category": "nonmetal",
+        "row": 2,
+        "column": 16,
+        "electrons": [
+            2,
+            6
+        ]
+    },
+    {
+        "id": 9,
+        "z": 9,
+        "a": 18.998,
+        "symbol": "F",
+        "name": {
+            "en": "Fluorine",
+            "fr": "Fluor"
+        },
+        "category": "halogen",
+        "row": 2,
+        "column": 17,
+        "electrons": [
+            2,
+            7
+        ]
+    },
+    {
+        "id": 10,
+        "z": 10,
+        "a": 20.18,
+        "symbol": "Ne",
+        "name": {
+            "en": "Neon",
+            "fr": "N\u00e9on"
+        },
+        "category": "noble-gas",
+        "row": 2,
+        "column": 18,
+        "electrons": [
+            2,
+            8
+        ]
+    },
+    {
+        "id": 11,
+        "z": 11,
+        "a": 22.99,
+        "symbol": "Na",
+        "name": {
+            "en": "Sodium",
+            "fr": "Sodium"
+        },
+        "category": "alkali",
+        "row": 3,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 12,
+        "z": 12,
+        "a": 24.305,
+        "symbol": "Mg",
+        "name": {
+            "en": "Magnesium",
+            "fr": "Magn\u00e9sium"
+        },
+        "category": "alkaline-earth",
+        "row": 3,
+        "column": 2,
+        "electrons": [
+            2,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 13,
+        "z": 13,
+        "a": 26.982,
+        "symbol": "Al",
+        "name": {
+            "en": "Aluminium",
+            "fr": "Aluminium"
+        },
+        "category": "post-transition",
+        "row": 3,
+        "column": 13,
+        "electrons": [
+            2,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 14,
+        "z": 14,
+        "a": 28.085,
+        "symbol": "Si",
+        "name": {
+            "en": "Silicon",
+            "fr": "Silicium"
+        },
+        "category": "metalloid",
+        "row": 3,
+        "column": 14,
+        "electrons": [
+            2,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 15,
+        "z": 15,
+        "a": 30.974,
+        "symbol": "P",
+        "name": {
+            "en": "Phosphorus",
+            "fr": "Phosphore"
+        },
+        "category": "nonmetal",
+        "row": 3,
+        "column": 15,
+        "electrons": [
+            2,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 16,
+        "z": 16,
+        "a": 32.06,
+        "symbol": "S",
+        "name": {
+            "en": "Sulfur",
+            "fr": "Soufre"
+        },
+        "category": "nonmetal",
+        "row": 3,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 17,
+        "z": 17,
+        "a": 35.45,
+        "symbol": "Cl",
+        "name": {
+            "en": "Chlorine",
+            "fr": "Chlore"
+        },
+        "category": "halogen",
+        "row": 3,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 18,
+        "z": 18,
+        "a": 39.948,
+        "symbol": "Ar",
+        "name": {
+            "en": "Argon",
+            "fr": "Argon"
+        },
+        "category": "noble-gas",
+        "row": 3,
+        "column": 18,
+        "electrons": [
+            2,
+            8,
+            8
+        ]
+    },
+    {
+        "id": 19,
+        "z": 19,
+        "a": 39.098,
+        "symbol": "K",
+        "name": {
+            "en": "Potassium",
+            "fr": "Potassium"
+        },
+        "category": "alkali",
+        "row": 4,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 20,
+        "z": 20,
+        "a": 40.078,
+        "symbol": "Ca",
+        "name": {
+            "en": "Calcium",
+            "fr": "Calcium"
+        },
+        "category": "alkaline-earth",
+        "row": 4,
+        "column": 2,
+        "electrons": [
+            2,
+            8,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 21,
+        "z": 21,
+        "a": 21.5,
+        "symbol": "E21",
+        "name": {
+            "en": "Element21",
+            "fr": "Element21"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 22,
+        "z": 22,
+        "a": 22.5,
+        "symbol": "E22",
+        "name": {
+            "en": "Element22",
+            "fr": "Element22"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 4,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 23,
+        "z": 23,
+        "a": 23.5,
+        "symbol": "E23",
+        "name": {
+            "en": "Element23",
+            "fr": "Element23"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 5,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 24,
+        "z": 24,
+        "a": 24.5,
+        "symbol": "E24",
+        "name": {
+            "en": "Element24",
+            "fr": "Element24"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 6,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 25,
+        "z": 25,
+        "a": 25.5,
+        "symbol": "E25",
+        "name": {
+            "en": "Element25",
+            "fr": "Element25"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 7,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 26,
+        "z": 26,
+        "a": 26.5,
+        "symbol": "E26",
+        "name": {
+            "en": "Element26",
+            "fr": "Element26"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 8,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 27,
+        "z": 27,
+        "a": 27.5,
+        "symbol": "E27",
+        "name": {
+            "en": "Element27",
+            "fr": "Element27"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 9,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 28,
+        "z": 28,
+        "a": 28.5,
+        "symbol": "E28",
+        "name": {
+            "en": "Element28",
+            "fr": "Element28"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 10,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 29,
+        "z": 29,
+        "a": 29.5,
+        "symbol": "E29",
+        "name": {
+            "en": "Element29",
+            "fr": "Element29"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 11,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 30,
+        "z": 30,
+        "a": 30.5,
+        "symbol": "E30",
+        "name": {
+            "en": "Element30",
+            "fr": "Element30"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 12,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 31,
+        "z": 31,
+        "a": 31.5,
+        "symbol": "E31",
+        "name": {
+            "en": "Element31",
+            "fr": "Element31"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 13,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 32,
+        "z": 32,
+        "a": 32.5,
+        "symbol": "E32",
+        "name": {
+            "en": "Element32",
+            "fr": "Element32"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 14,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 33,
+        "z": 33,
+        "a": 33.5,
+        "symbol": "E33",
+        "name": {
+            "en": "Element33",
+            "fr": "Element33"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 15,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 34,
+        "z": 34,
+        "a": 34.5,
+        "symbol": "E34",
+        "name": {
+            "en": "Element34",
+            "fr": "Element34"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 35,
+        "z": 35,
+        "a": 35.5,
+        "symbol": "E35",
+        "name": {
+            "en": "Element35",
+            "fr": "Element35"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 36,
+        "z": 36,
+        "a": 36.5,
+        "symbol": "E36",
+        "name": {
+            "en": "Element36",
+            "fr": "Element36"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 37,
+        "z": 37,
+        "a": 37.5,
+        "symbol": "E37",
+        "name": {
+            "en": "Element37",
+            "fr": "Element37"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 38,
+        "z": 38,
+        "a": 38.5,
+        "symbol": "E38",
+        "name": {
+            "en": "Element38",
+            "fr": "Element38"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 2,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 39,
+        "z": 39,
+        "a": 39.5,
+        "symbol": "E39",
+        "name": {
+            "en": "Element39",
+            "fr": "Element39"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 40,
+        "z": 40,
+        "a": 40.5,
+        "symbol": "E40",
+        "name": {
+            "en": "Element40",
+            "fr": "Element40"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 4,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 41,
+        "z": 41,
+        "a": 41.5,
+        "symbol": "E41",
+        "name": {
+            "en": "Element41",
+            "fr": "Element41"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 5,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 42,
+        "z": 42,
+        "a": 42.5,
+        "symbol": "E42",
+        "name": {
+            "en": "Element42",
+            "fr": "Element42"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 6,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 43,
+        "z": 43,
+        "a": 43.5,
+        "symbol": "E43",
+        "name": {
+            "en": "Element43",
+            "fr": "Element43"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 7,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 44,
+        "z": 44,
+        "a": 44.5,
+        "symbol": "E44",
+        "name": {
+            "en": "Element44",
+            "fr": "Element44"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 8,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 45,
+        "z": 45,
+        "a": 45.5,
+        "symbol": "E45",
+        "name": {
+            "en": "Element45",
+            "fr": "Element45"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 9,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 46,
+        "z": 46,
+        "a": 46.5,
+        "symbol": "E46",
+        "name": {
+            "en": "Element46",
+            "fr": "Element46"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 10,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 47,
+        "z": 47,
+        "a": 47.5,
+        "symbol": "E47",
+        "name": {
+            "en": "Element47",
+            "fr": "Element47"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 11,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 48,
+        "z": 48,
+        "a": 48.5,
+        "symbol": "E48",
+        "name": {
+            "en": "Element48",
+            "fr": "Element48"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 12,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 49,
+        "z": 49,
+        "a": 49.5,
+        "symbol": "E49",
+        "name": {
+            "en": "Element49",
+            "fr": "Element49"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 13,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 50,
+        "z": 50,
+        "a": 50.5,
+        "symbol": "E50",
+        "name": {
+            "en": "Element50",
+            "fr": "Element50"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 14,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 51,
+        "z": 51,
+        "a": 51.5,
+        "symbol": "E51",
+        "name": {
+            "en": "Element51",
+            "fr": "Element51"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 15,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 52,
+        "z": 52,
+        "a": 52.5,
+        "symbol": "E52",
+        "name": {
+            "en": "Element52",
+            "fr": "Element52"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 53,
+        "z": 53,
+        "a": 53.5,
+        "symbol": "E53",
+        "name": {
+            "en": "Element53",
+            "fr": "Element53"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 54,
+        "z": 54,
+        "a": 54.5,
+        "symbol": "E54",
+        "name": {
+            "en": "Element54",
+            "fr": "Element54"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 55,
+        "z": 55,
+        "a": 55.5,
+        "symbol": "E55",
+        "name": {
+            "en": "Element55",
+            "fr": "Element55"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 56,
+        "z": 56,
+        "a": 56.5,
+        "symbol": "E56",
+        "name": {
+            "en": "Element56",
+            "fr": "Element56"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 2,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 57,
+        "z": 57,
+        "a": 57.5,
+        "symbol": "E57",
+        "name": {
+            "en": "Element57",
+            "fr": "Element57"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 58,
+        "z": 58,
+        "a": 58.5,
+        "symbol": "E58",
+        "name": {
+            "en": "Element58",
+            "fr": "Element58"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 4,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 59,
+        "z": 59,
+        "a": 59.5,
+        "symbol": "E59",
+        "name": {
+            "en": "Element59",
+            "fr": "Element59"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 5,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 60,
+        "z": 60,
+        "a": 60.5,
+        "symbol": "E60",
+        "name": {
+            "en": "Element60",
+            "fr": "Element60"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 6,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 61,
+        "z": 61,
+        "a": 61.5,
+        "symbol": "E61",
+        "name": {
+            "en": "Element61",
+            "fr": "Element61"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 7,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 62,
+        "z": 62,
+        "a": 62.5,
+        "symbol": "E62",
+        "name": {
+            "en": "Element62",
+            "fr": "Element62"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 8,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 63,
+        "z": 63,
+        "a": 63.5,
+        "symbol": "E63",
+        "name": {
+            "en": "Element63",
+            "fr": "Element63"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 9,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 64,
+        "z": 64,
+        "a": 64.5,
+        "symbol": "E64",
+        "name": {
+            "en": "Element64",
+            "fr": "Element64"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 10,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 65,
+        "z": 65,
+        "a": 65.5,
+        "symbol": "E65",
+        "name": {
+            "en": "Element65",
+            "fr": "Element65"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 11,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 66,
+        "z": 66,
+        "a": 66.5,
+        "symbol": "E66",
+        "name": {
+            "en": "Element66",
+            "fr": "Element66"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 12,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 67,
+        "z": 67,
+        "a": 67.5,
+        "symbol": "E67",
+        "name": {
+            "en": "Element67",
+            "fr": "Element67"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 13,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 68,
+        "z": 68,
+        "a": 68.5,
+        "symbol": "E68",
+        "name": {
+            "en": "Element68",
+            "fr": "Element68"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 14,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 69,
+        "z": 69,
+        "a": 69.5,
+        "symbol": "E69",
+        "name": {
+            "en": "Element69",
+            "fr": "Element69"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 15,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 70,
+        "z": 70,
+        "a": 70.5,
+        "symbol": "E70",
+        "name": {
+            "en": "Element70",
+            "fr": "Element70"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 71,
+        "z": 71,
+        "a": 71.5,
+        "symbol": "E71",
+        "name": {
+            "en": "Element71",
+            "fr": "Element71"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 72,
+        "z": 72,
+        "a": 72.5,
+        "symbol": "E72",
+        "name": {
+            "en": "Element72",
+            "fr": "Element72"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 73,
+        "z": 73,
+        "a": 73.5,
+        "symbol": "E73",
+        "name": {
+            "en": "Element73",
+            "fr": "Element73"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 74,
+        "z": 74,
+        "a": 74.5,
+        "symbol": "E74",
+        "name": {
+            "en": "Element74",
+            "fr": "Element74"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 2,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 75,
+        "z": 75,
+        "a": 75.5,
+        "symbol": "E75",
+        "name": {
+            "en": "Element75",
+            "fr": "Element75"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 76,
+        "z": 76,
+        "a": 76.5,
+        "symbol": "E76",
+        "name": {
+            "en": "Element76",
+            "fr": "Element76"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 4,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 77,
+        "z": 77,
+        "a": 77.5,
+        "symbol": "E77",
+        "name": {
+            "en": "Element77",
+            "fr": "Element77"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 5,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 78,
+        "z": 78,
+        "a": 78.5,
+        "symbol": "E78",
+        "name": {
+            "en": "Element78",
+            "fr": "Element78"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 6,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 79,
+        "z": 79,
+        "a": 79.5,
+        "symbol": "E79",
+        "name": {
+            "en": "Element79",
+            "fr": "Element79"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 7,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 80,
+        "z": 80,
+        "a": 80.5,
+        "symbol": "E80",
+        "name": {
+            "en": "Element80",
+            "fr": "Element80"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 8,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 81,
+        "z": 81,
+        "a": 81.5,
+        "symbol": "E81",
+        "name": {
+            "en": "Element81",
+            "fr": "Element81"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 9,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 82,
+        "z": 82,
+        "a": 82.5,
+        "symbol": "E82",
+        "name": {
+            "en": "Element82",
+            "fr": "Element82"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 10,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 83,
+        "z": 83,
+        "a": 83.5,
+        "symbol": "E83",
+        "name": {
+            "en": "Element83",
+            "fr": "Element83"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 11,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 84,
+        "z": 84,
+        "a": 84.5,
+        "symbol": "E84",
+        "name": {
+            "en": "Element84",
+            "fr": "Element84"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 12,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 85,
+        "z": 85,
+        "a": 85.5,
+        "symbol": "E85",
+        "name": {
+            "en": "Element85",
+            "fr": "Element85"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 13,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 86,
+        "z": 86,
+        "a": 86.5,
+        "symbol": "E86",
+        "name": {
+            "en": "Element86",
+            "fr": "Element86"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 14,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 87,
+        "z": 87,
+        "a": 87.5,
+        "symbol": "E87",
+        "name": {
+            "en": "Element87",
+            "fr": "Element87"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 15,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 88,
+        "z": 88,
+        "a": 88.5,
+        "symbol": "E88",
+        "name": {
+            "en": "Element88",
+            "fr": "Element88"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 89,
+        "z": 89,
+        "a": 89.5,
+        "symbol": "E89",
+        "name": {
+            "en": "Element89",
+            "fr": "Element89"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 90,
+        "z": 90,
+        "a": 90.5,
+        "symbol": "E90",
+        "name": {
+            "en": "Element90",
+            "fr": "Element90"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 91,
+        "z": 91,
+        "a": 91.5,
+        "symbol": "E91",
+        "name": {
+            "en": "Element91",
+            "fr": "Element91"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 92,
+        "z": 92,
+        "a": 92.5,
+        "symbol": "E92",
+        "name": {
+            "en": "Element92",
+            "fr": "Element92"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 2,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 93,
+        "z": 93,
+        "a": 93.5,
+        "symbol": "E93",
+        "name": {
+            "en": "Element93",
+            "fr": "Element93"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 94,
+        "z": 94,
+        "a": 94.5,
+        "symbol": "E94",
+        "name": {
+            "en": "Element94",
+            "fr": "Element94"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 4,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 95,
+        "z": 95,
+        "a": 95.5,
+        "symbol": "E95",
+        "name": {
+            "en": "Element95",
+            "fr": "Element95"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 5,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 96,
+        "z": 96,
+        "a": 96.5,
+        "symbol": "E96",
+        "name": {
+            "en": "Element96",
+            "fr": "Element96"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 6,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 97,
+        "z": 97,
+        "a": 97.5,
+        "symbol": "E97",
+        "name": {
+            "en": "Element97",
+            "fr": "Element97"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 7,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 98,
+        "z": 98,
+        "a": 98.5,
+        "symbol": "E98",
+        "name": {
+            "en": "Element98",
+            "fr": "Element98"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 8,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 99,
+        "z": 99,
+        "a": 99.5,
+        "symbol": "E99",
+        "name": {
+            "en": "Element99",
+            "fr": "Element99"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 9,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 100,
+        "z": 100,
+        "a": 100.5,
+        "symbol": "E100",
+        "name": {
+            "en": "Element100",
+            "fr": "Element100"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 10,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 101,
+        "z": 101,
+        "a": 101.5,
+        "symbol": "E101",
+        "name": {
+            "en": "Element101",
+            "fr": "Element101"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 11,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 102,
+        "z": 102,
+        "a": 102.5,
+        "symbol": "E102",
+        "name": {
+            "en": "Element102",
+            "fr": "Element102"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 12,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 103,
+        "z": 103,
+        "a": 103.5,
+        "symbol": "E103",
+        "name": {
+            "en": "Element103",
+            "fr": "Element103"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 13,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 104,
+        "z": 104,
+        "a": 104.5,
+        "symbol": "E104",
+        "name": {
+            "en": "Element104",
+            "fr": "Element104"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 14,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 105,
+        "z": 105,
+        "a": 105.5,
+        "symbol": "E105",
+        "name": {
+            "en": "Element105",
+            "fr": "Element105"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 15,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 106,
+        "z": 106,
+        "a": 106.5,
+        "symbol": "E106",
+        "name": {
+            "en": "Element106",
+            "fr": "Element106"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 16,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 107,
+        "z": 107,
+        "a": 107.5,
+        "symbol": "E107",
+        "name": {
+            "en": "Element107",
+            "fr": "Element107"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 17,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 108,
+        "z": 108,
+        "a": 108.5,
+        "symbol": "E108",
+        "name": {
+            "en": "Element108",
+            "fr": "Element108"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 109,
+        "z": 109,
+        "a": 109.5,
+        "symbol": "E109",
+        "name": {
+            "en": "Element109",
+            "fr": "Element109"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 1,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 110,
+        "z": 110,
+        "a": 110.5,
+        "symbol": "E110",
+        "name": {
+            "en": "Element110",
+            "fr": "Element110"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 2,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    },
+    {
+        "id": 111,
+        "z": 111,
+        "a": 111.5,
+        "symbol": "E111",
+        "name": {
+            "en": "Element111",
+            "fr": "Element111"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 3,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            7
+        ]
+    },
+    {
+        "id": 112,
+        "z": 112,
+        "a": 112.5,
+        "symbol": "E112",
+        "name": {
+            "en": "Element112",
+            "fr": "Element112"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 4,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            0
+        ]
+    },
+    {
+        "id": 113,
+        "z": 113,
+        "a": 113.5,
+        "symbol": "E113",
+        "name": {
+            "en": "Element113",
+            "fr": "Element113"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 5,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            1
+        ]
+    },
+    {
+        "id": 114,
+        "z": 114,
+        "a": 114.5,
+        "symbol": "E114",
+        "name": {
+            "en": "Element114",
+            "fr": "Element114"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 6,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            2
+        ]
+    },
+    {
+        "id": 115,
+        "z": 115,
+        "a": 115.5,
+        "symbol": "E115",
+        "name": {
+            "en": "Element115",
+            "fr": "Element115"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 7,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            3
+        ]
+    },
+    {
+        "id": 116,
+        "z": 116,
+        "a": 116.5,
+        "symbol": "E116",
+        "name": {
+            "en": "Element116",
+            "fr": "Element116"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 8,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            4
+        ]
+    },
+    {
+        "id": 117,
+        "z": 117,
+        "a": 117.5,
+        "symbol": "E117",
+        "name": {
+            "en": "Element117",
+            "fr": "Element117"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 9,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            5
+        ]
+    },
+    {
+        "id": 118,
+        "z": 118,
+        "a": 118.5,
+        "symbol": "E118",
+        "name": {
+            "en": "Element118",
+            "fr": "Element118"
+        },
+        "category": "transition",
+        "row": 7,
+        "column": 10,
+        "electrons": [
+            2,
+            8,
+            18,
+            32,
+            18,
+            8,
+            6
+        ]
+    }
+]

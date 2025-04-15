@@ -1,0 +1,28 @@
+{
+    "en": {
+        "title": "Periodic Table",
+        "alkali": "Alkali Metal",
+        "alkaline-earth": "Alkaline Earth Metal",
+        "transition": "Transition Metal",
+        "post-transition": "Post-transition Metal",
+        "metalloid": "Metalloid",
+        "nonmetal": "Nonmetal",
+        "halogen": "Halogen",
+        "noble-gas": "Noble Gas",
+        "lanthanide": "Lanthanide",
+        "actinide": "Actinide"
+    },
+    "fr": {
+        "title": "Tableau Périodique",
+        "alkali": "Métal Alcalin",
+        "alkaline-earth": "Métal Alcalino-terreux",
+        "transition": "Métal de transition",
+        "post-transition": "Métal post-transition",
+        "metalloid": "Métalloïde",
+        "nonmetal": "Non-métal",
+        "halogen": "Halogène",
+        "noble-gas": "Gaz noble",
+        "lanthanide": "Lanthanoïde",
+        "actinide": "Actinoïde"
+    }
+}
