@@ -10,7 +10,8 @@
         "halogen": "Halogen",
         "noble-gas": "Noble Gas",
         "lanthanide": "Lanthanide",
-        "actinide": "Actinide"
+        "actinide": "Actinide",
+        "config": "Electronic Configuration"
     },
     "fr": {
         "title": "Tableau Périodique",
@@ -23,6 +24,7 @@
         "halogen": "Halogène",
         "noble-gas": "Gaz noble",
         "lanthanide": "Lanthanoïde",
-        "actinide": "Actinoïde"
+        "actinide": "Actinoïde",
+        "config": "Configuration électronique"
     }
 }

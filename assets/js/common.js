@@ -20,3 +20,15 @@ langSelect.addEventListener("change", () => {
     localStorage.setItem("lang", langSelect.value);
     location.reload();
 });
+
+const currentLang = localStorage.getItem("lang") || "en";
+document.querySelectorAll(".lang-switch img").forEach(img => {
+    if (img.dataset.lang === currentLang) {
+        img.classList.add("active");
+    }
+
+    img.addEventListener("click", () => {
+        localStorage.setItem("lang", img.dataset.lang);
+        location.reload();
+    });
+});

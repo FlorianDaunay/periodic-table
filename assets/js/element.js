@@ -67,12 +67,41 @@ function drawShellDiagram(electrons) {
     document.getElementById("shell-diagram").appendChild(svg);
 }
 
-function drawLewisNotation(valenceCount) {
+function drawLewisNotation(electronShells) {
     const container = document.getElementById("lewis-notation");
     container.innerHTML = "";
-    const center = document.createElement("span");
-    center.textContent = "•".repeat(valenceCount);
-    container.appendChild(center);
+
+    const subshells = ["s", "p", "d", "f"];
+    const fullConfig = [];
+
+    let shellNumber = 1;
+    for (let i = 0; i < electronShells.length; i++) {
+        let remaining = electronShells[i];
+        let subs = [];
+
+        if (remaining > 0) {
+            if (remaining >= 2) {
+                subs.push(`${shellNumber}s2`);
+                remaining -= 2;
+            } else if (remaining === 1) {
+                subs.push(`${shellNumber}s1`);
+                remaining -= 1;
+            }
+
+            if (remaining > 0) {
+                subs.push(`${shellNumber}p${remaining}`);
+            }
+
+            fullConfig.push(...subs);
+        }
+        shellNumber++;
+    }
+
+    const span = document.createElement("span");
+    span.textContent = fullConfig.join(" ");
+    container.appendChild(span);
 }
+
+document.getElementById("config-title").textContent = t.config || t.config_fr;
 
 loadElement();
