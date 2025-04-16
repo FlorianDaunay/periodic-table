@@ -189,11 +189,10 @@ body {
 }
 
 main {
-    max-width: 1000px;
+    overflow-x: auto;
     margin: 0 auto;
     padding: 1rem;
 }
-
 
 
 
