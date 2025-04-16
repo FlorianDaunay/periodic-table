@@ -48,8 +48,8 @@ async function importData() {
 const categoryColors = {
     "alkali": "#e06666",
     "alkaline-earth": "#f6b26b",
-    "transition": "#ffd966",
-    "post-transition": "#93c47d",
+    "transition-metal": "#ffd966",
+    "post-transition-metal": "#93c47d",
     "metalloid": "#76a5af",
     "nonmetal": "#6fa8dc",
     "halogen": "#8e7cc3",
