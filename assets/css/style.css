@@ -191,8 +191,6 @@ main {
     flex-direction: column;
     gap: 1rem;
     margin-top: 2rem;
-    padding-left: 3.5rem;
-    /* align with group 3 */
 }
 
 #bottom-rows .lanthanides,
@@ -200,4 +198,6 @@ main {
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     gap: 4px;
+    float: right;
+    width: 77.78%;
 }
