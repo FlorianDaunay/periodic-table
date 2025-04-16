@@ -10,22 +10,37 @@ async function importData() {
     document.getElementById("title").textContent = t.title;
 
     const table = document.getElementById("table");
+    const lanth = document.querySelector(".lanthanides");
+    const actin = document.querySelector(".actinides");
+
     elements.forEach(el => {
         const div = document.createElement("div");
         div.className = "element";
-        div.style.gridColumn = el.column;
-        div.style.gridRow = el.row;
         div.style.borderColor = categoryColors[el.category] || "gray";
         div.onclick = () => location.href = `element.html?id=${el.id}`;
-
         div.innerHTML = `
-        <div class="z">${el.z}</div>
-        <div class="symbol">${el.symbol}</div>
-        <div class="a">${el.a}</div>
-        <div class="tooltip">${t[el.category]} - ${el.name[lang]}</div>
-      `;
-        table.appendChild(div);
+    <div class="z">${el.z}</div>
+    <div class="symbol">${el.symbol}</div>
+    <div class="a">${el.a}</div>
+    <div class="tooltip">${t[el.category]} - ${el.name[lang]}</div>
+  `;
+
+        // Lanthanides (Z 58–71)
+        if (el.z >= 58 && el.z <= 71) {
+            lanth.appendChild(div);
+        }
+        // Actinides (Z 90–103)
+        else if (el.z >= 90 && el.z <= 103) {
+            actin.appendChild(div);
+        }
+        // Main table
+        else {
+            div.style.gridColumn = el.column;
+            div.style.gridRow = el.row;
+            table.appendChild(div);
+        }
     });
+
 
     renderLegend(t);
 }
