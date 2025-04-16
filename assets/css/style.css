@@ -39,15 +39,21 @@ header {
     padding: 1rem;
 }
 
+/* taille unique des cases */
 .element {
-    background: var(--card);
-    border: 3px solid var(--border);
-    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    font-size: 0.8rem;
     text-align: center;
-    padding: 8px;
+    border-radius: 6px;
+    border: 3px solid var(--text);
     cursor: pointer;
-    transition: transform 0.2s;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px;
+    box-sizing: border-box;
 }
 
 .element:hover {
@@ -183,40 +189,37 @@ body {
 }
 
 main {
-    overflow-x: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
+
+
+
+/* Grille du bas alignée comme le tableau */
 #bottom-rows {
-    display: grid;
-    grid-template-columns: 3.5rem auto;
-    /* label + 14 cases */
-    gap: 0.5rem;
-    margin-top: 2rem;
-    padding-left: 0.5rem;
-}
-
-.bottom-row-label {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.9rem;
-    font-weight: bold;
-    color: var(--text);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-inline: 0.5rem;
+    margin-top: 2rem;
 }
 
 .lanthanides,
 .actinides {
     display: grid;
-    grid-template-columns: repeat(14, 1fr);
+    grid-template-columns: repeat(14, 60px);
     gap: 4px;
+    margin-left: calc(60px * 2);
+    /* simulate column 3 offset */
 }
 
-.lanthanides .element,
-.actinides .element {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.bottom-row-label {
+    font-weight: bold;
+    margin-left: calc(60px * 1.2);
+    font-size: 0.85rem;
+    margin-bottom: -0.5rem;
+    color: var(--text);
 }
