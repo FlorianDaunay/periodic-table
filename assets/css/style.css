@@ -198,6 +198,7 @@ main {
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     gap: 4px;
-    float: right;
+    align-self: flex-end;
     width: 77.78%;
+    padding: 1rem;
 }
