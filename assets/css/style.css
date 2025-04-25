@@ -48,6 +48,15 @@ header {
     cursor: pointer;
     transition: transform 0.2s;
     position: relative;
+    aspect-ratio: 1 / 1;
+    /* ← ajouté pour carré parfait */
+    overflow: hidden;
+    /* ← évite que le texte casse */
+    display: flex;
+    /* ← centrer verticalement */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .element:hover {
@@ -55,14 +64,25 @@ header {
 }
 
 .element .symbol {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    /* ← adaptatif */
     font-weight: bold;
+    overflow: hidden;
+    /* ← ajout pour forcer la tenue du texte */
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .element .z,
 .element .a {
-    font-size: 0.8rem;
+    font-size: clamp(0.6rem, 1.5vw, 0.8rem);
+    /* ← adaptatif */
+    overflow: hidden;
+    /* ← pareil ici */
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
+
 
 .element .tooltip {
     display: none;
@@ -174,7 +194,7 @@ header {
 }
 
 #table {
-    overflow-x: auto;
+    overflow-x: hidden;
     max-width: 100%;
 }
 
