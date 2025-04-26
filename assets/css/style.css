@@ -143,7 +143,18 @@ header {
     font-size: 1.2rem;
 }
 
+#visuals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    /* or same as shell diagram size + padding */
+    margin: 0 auto;
+}
+
 #shell-diagram {
+    width: 200px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,19 +162,12 @@ header {
 }
 
 #lewis-notation {
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    max-width: 200px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 1rem;
 }
 
-#lewis-notation .dot {
-    width: 10px;
-    height: 10px;
-    background: var(--text);
-    border-radius: 50%;
-    margin: 4px;
-}
 
 #back-btn {
     background: none;
