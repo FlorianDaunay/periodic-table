@@ -38,13 +38,16 @@ function drawShellDiagram(electrons) {
     const svgNS = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(svgNS, "svg");
 
-    const cx = 100, cy = 100;
-    const baseRadii = [30, 50, 70, 90, 110, 130];
+    // Dynamically calculate radii
+    const shellCount = electrons.length;
+    const baseSpacing = 20; // space between shells
+    const baseRadius = 30; // starting radius
 
-    // Find needed size
-    const lastOccupiedShell = electrons.length - 1;
-    const neededRadius = baseRadii[lastOccupiedShell] || 130;
-    const totalSize = (neededRadius + 20) * 2; // +20 margin for electrons
+    const radii = Array.from({ length: shellCount }, (_, i) => baseRadius + i * baseSpacing);
+
+    // Find total size needed
+    const neededRadius = radii[radii.length - 1] || baseRadius;
+    const totalSize = (neededRadius + 20) * 2; // +20 margin
 
     svg.setAttribute("viewBox", `0 0 ${totalSize} ${totalSize}`);
     svg.setAttribute("width", "100%");
@@ -54,7 +57,7 @@ function drawShellDiagram(electrons) {
     const centerY = totalSize / 2;
 
     electrons.forEach((count, i) => {
-        const radius = baseRadii[i];
+        const radius = radii[i];
         if (radius === undefined) return;
 
         const circle = document.createElementNS(svgNS, "circle");
@@ -83,6 +86,7 @@ function drawShellDiagram(electrons) {
     container.innerHTML = "";
     container.appendChild(svg);
 }
+
 
 
 function drawLewisNotation(electronShells) {
