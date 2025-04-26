@@ -38,17 +38,7 @@ function drawShellDiagram(electrons) {
     const svgNS = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(svgNS, "svg");
 
-    // Dynamically calculate radii
-    const shellCount = electrons.length;
-    const baseSpacing = 20; // space between shells
-    const baseRadius = 30; // starting radius
-
-    const radii = Array.from({ length: shellCount }, (_, i) => baseRadius + i * baseSpacing);
-
-    // Find total size needed
-    const neededRadius = radii[radii.length - 1] || baseRadius;
-    const totalSize = (neededRadius + 20) * 2; // +20 margin
-
+    const totalSize = 200; // fixed size
     svg.setAttribute("viewBox", `0 0 ${totalSize} ${totalSize}`);
     svg.setAttribute("width", "100%");
     svg.setAttribute("height", "auto");
@@ -56,9 +46,12 @@ function drawShellDiagram(electrons) {
     const centerX = totalSize / 2;
     const centerY = totalSize / 2;
 
+    const shellCount = electrons.length;
+    const maxShellRadius = 80; // maximum radius allowed
+    const spacing = maxShellRadius / shellCount; // space between shells
+
     electrons.forEach((count, i) => {
-        const radius = radii[i];
-        if (radius === undefined) return;
+        const radius = spacing * (i + 1); // layer 1 = spacing * 1, layer 2 = spacing * 2, etc.
 
         const circle = document.createElementNS(svgNS, "circle");
         circle.setAttribute("cx", centerX);
@@ -86,6 +79,7 @@ function drawShellDiagram(electrons) {
     container.innerHTML = "";
     container.appendChild(svg);
 }
+
 
 
 
