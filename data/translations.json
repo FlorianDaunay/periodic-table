@@ -11,7 +11,8 @@
         "noble-gas": "Noble Gas",
         "lanthanide": "Lanthanide",
         "actinide": "Actinide",
-        "config": "Electronic Configuration"
+        "config": "Electronic Configuration",
+        "back": "Back"
     },
     "fr": {
         "title": "Tableau Périodique",
@@ -25,6 +26,7 @@
         "noble-gas": "Gaz noble",
         "lanthanide": "Lanthanoïde",
         "actinide": "Actinoïde",
-        "config": "Configuration électronique"
+        "config": "Configuration électronique",
+        "back": "Retour"
     }
 }

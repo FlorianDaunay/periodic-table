@@ -36,16 +36,29 @@ async function loadElement() {
 function drawShellDiagram(electrons) {
     const svgNS = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(svgNS, "svg");
-    svg.setAttribute("viewBox", "0 0 200 200");
 
     const cx = 100, cy = 100;
-    const radii = [30, 50, 70, 90, 110, 130];
+    const baseRadii = [30, 50, 70, 90, 110, 130];
+
+    // Find needed size
+    const lastOccupiedShell = electrons.length - 1;
+    const neededRadius = baseRadii[lastOccupiedShell] || 130;
+    const totalSize = (neededRadius + 20) * 2; // +20 margin for electrons
+
+    svg.setAttribute("viewBox", `0 0 ${totalSize} ${totalSize}`);
+    svg.setAttribute("width", "100%");
+    svg.setAttribute("height", "auto");
+
+    const centerX = totalSize / 2;
+    const centerY = totalSize / 2;
 
     electrons.forEach((count, i) => {
-        const radius = radii[i];
+        const radius = baseRadii[i];
+        if (radius === undefined) return;
+
         const circle = document.createElementNS(svgNS, "circle");
-        circle.setAttribute("cx", cx);
-        circle.setAttribute("cy", cy);
+        circle.setAttribute("cx", centerX);
+        circle.setAttribute("cy", centerY);
         circle.setAttribute("r", radius);
         circle.setAttribute("stroke", "var(--text)");
         circle.setAttribute("fill", "none");
@@ -53,8 +66,8 @@ function drawShellDiagram(electrons) {
 
         for (let j = 0; j < count; j++) {
             const angle = (2 * Math.PI * j) / count;
-            const ex = cx + radius * Math.cos(angle);
-            const ey = cy + radius * Math.sin(angle);
+            const ex = centerX + radius * Math.cos(angle);
+            const ey = centerY + radius * Math.sin(angle);
 
             const electron = document.createElementNS(svgNS, "circle");
             electron.setAttribute("cx", ex);
@@ -65,9 +78,11 @@ function drawShellDiagram(electrons) {
         }
     });
 
-    document.getElementById("shell-diagram").innerHTML = "";
-    document.getElementById("shell-diagram").appendChild(svg);
+    const container = document.getElementById("shell-diagram");
+    container.innerHTML = "";
+    container.appendChild(svg);
 }
+
 
 function drawLewisNotation(electronShells) {
     const container = document.getElementById("lewis-notation");
