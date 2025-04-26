@@ -26,7 +26,8 @@ async function loadElement() {
   `;
 
     drawShellDiagram(el.electrons);
-    drawLewisNotation(el.electrons[el.electrons.length - 1]);
+    drawLewisNotation(el.electrons);
+
 
     const backBtn = document.getElementById("back-btn");
     backBtn.onclick = () => window.location.href = "index.html";
